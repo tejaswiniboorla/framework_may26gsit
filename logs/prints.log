@@ -1,0 +1,3 @@
+15:47:00.080 [TestNG-PoolService-5] ERROR stepDefinations.C_validateAddToCartStep - Exception occurred:Cannot invoke "pageObjects.CartPage.getInputSearch()" because "this.cartPage" is null
+15:47:00.083 [TestNG-PoolService-5] ERROR stepDefinations.C_validateAddToCartStep - Exception occurred:Cannot invoke "pageObjects.CartPage.getItemName()" because "this.cartPage" is null
+15:47:00.084 [TestNG-PoolService-5] ERROR stepDefinations.C_validateAddToCartStep - Exception occurred:Cannot invoke "pageObjects.CartPage.getItemQuantity()" because "this.cartPage" is null

@@ -1,0 +1,5 @@
+23:40:49.794 [main] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url value:https://www.engineerdiaries.com
+23:40:50.789 [main] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url launched
+23:40:53.848 [main] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Browser got maximized
+23:40:59.981 [main] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Signup button clicked
+23:41:03.054 [main] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Login tab clicked

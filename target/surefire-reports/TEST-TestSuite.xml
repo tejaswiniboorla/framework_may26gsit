@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="44.092" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\user\eclipse-workspace\framework_may26gsit\target\test-classes;C:\Users\user\eclipse-workspace\framework_may26gsit\target\classes;C:\Users\user\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\user\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\user\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\user\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire1501745854373222890\surefirebooter-20261029154324504_3.jar C:\Users\user\AppData\Local\Temp\surefire1501745854373222890 2026-10-29T15-43-24_362-jvmRun1 surefire-20261029154324504_1tmp surefire_0-20261029154324504_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\user\eclipse-workspace\framework_may26gsit\target\test-classes;C:\Users\user\eclipse-workspace\framework_may26gsit\target\classes;C:\Users\user\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-api\2.25.2\log4j-api-2.25.2.jar;C:\Users\user\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.2\log4j-core-2.25.2.jar;C:\Users\user\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\user\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.39.0\selenium-java-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.39.0\selenium-api-4.39.0.jar;C:\Users\user\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.39.0\selenium-chrome-driver-4.39.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.39.0\selenium-chromium-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.39.0\selenium-json-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.39.0\selenium-manager-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v141\4.39.0\selenium-devtools-v141-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.39.0\selenium-devtools-v142-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.39.0\selenium-devtools-v143-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.39.0\selenium-edge-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.39.0\selenium-firefox-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.39.0\selenium-http-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.39.0\selenium-ie-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.39.0\selenium-remote-driver-4.39.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.56.0\opentelemetry-api-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.56.0\opentelemetry-context-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-common\1.56.0\opentelemetry-common-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.56.0\opentelemetry-exporter-logging-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.56.0\opentelemetry-sdk-common-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.56.0\opentelemetry-sdk-extension-autoconfigure-spi-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.56.0\opentelemetry-sdk-extension-autoconfigure-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.56.0\opentelemetry-sdk-trace-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.56.0\opentelemetry-sdk-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.56.0\opentelemetry-sdk-metrics-1.56.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.56.0\opentelemetry-sdk-logs-1.56.0.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.18.2\byte-buddy-1.18.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.39.0\selenium-os-4.39.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.6.0\commons-exec-1.6.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.39.0\selenium-safari-driver-4.39.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.39.0\selenium-support-4.39.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.12.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\user\eclipse-workspace\framework_may26gsit"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire1501745854373222890\surefirebooter-20261029154324504_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.12.1+1-LTS-4"/>
+    <property name="user.name" value="user"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\user\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.12.1"/>
+    <property name="user.dir" value="C:\Users\user\eclipse-workspace\framework_may26gsit"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.12.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\user\scoop\shims;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-21.0.12.1\bin;C:\Users\user\Downloads\apache-maven-3.10.0-bin\apache-maven-3.10.0\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin\copilot-shim;C:\Users\user\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.12.1+1-LTS-4"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;login via email and password&quot;, &quot;Login functionality of registered user&quot;](1)" classname="cucumberOptions.TestRunner" time="23.391">
+    <system-out><![CDATA[
+@filterByPrice
+Scenario Outline: Validating price by filter                               &amp#27;[90m# src/test/resources/features/B_validateFilterByPrice.feature:15&amp#27;[0m
+
+@filterByPrice
+Scenario Outline: Validating price by filter                               &amp#27;[90m# src/test/resources/features/B_validateFilterByPrice.feature:16&amp#27;[0m
+
+@addCart
+Scenario: Validate add to cart                                             &amp#27;[90m# src/test/resources/features/C_validateAddToCart.feature:4&amp#27;[0m
+
+@filterByPrice
+Scenario Outline: Validating price by filter                               &amp#27;[90m# src/test/resources/features/B_validateFilterByPrice.feature:17&amp#27;[0m
+
+@login
+Scenario: login via email and password                                     &amp#27;[90m# src/test/resources/features/A_validateLoginFunctionality.feature:4&amp#27;[0m
+reached hook
+reached hook
+reached hook
+reached hook
+browser:****edge
+browser:****edge
+browser:****edge
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+browser:****edge
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+reached hook
+browser:****edge
+java -jar src/main/resources/selenium-server-4.51.0.jar standalone
+15:43:31.674 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url value:https://www.engineerdiaries.com
+15:43:31.682 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url value:https://www.engineerdiaries.com
+15:43:31.676 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url value:https://www.engineerdiaries.com
+15:43:31.677 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url value:https://www.engineerdiaries.com
+15:43:31.677 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url value:https://www.engineerdiaries.com
+15:43:33.546 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url launched
+15:43:33.945 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Browser got maximized
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_home_page()&amp#27;[0m
+15:43:34.939 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url launched
+15:43:35.020 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url launched
+15:43:35.292 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Browser got maximized
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_home_page()&amp#27;[0m
+15:43:35.629 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url launched
+15:43:35.729 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - url launched
+15:43:35.954 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Browser got maximized
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_home_page()&amp#27;[0m
+15:43:36.222 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Browser got maximized
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_home_page()&amp#27;[0m
+15:43:36.226 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Browser got maximized
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is home page&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_home_page()&amp#27;[0m
+15:43:36.564 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Signup button clicked
+15:43:37.738 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Signup button clicked
+15:43:38.112 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Login tab clicked
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.clicks_login()&amp#27;[0m
+15:43:38.493 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Signup button clicked
+15:43:38.582 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Signup button clicked
+15:43:38.984 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Signup button clicked
+15:43:39.293 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Email entered:priyankauser@gmail.com
+15:43:39.402 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Login tab clicked
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.clicks_login()&amp#27;[0m
+15:43:39.501 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Login tab clicked
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.clicks_login()&amp#27;[0m
+15:43:39.688 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Login tab clicked
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.clicks_login()&amp#27;[0m
+15:43:39.717 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - passeord entered:Priyanka@1
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+15:43:39.952 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Email entered:priyankauser@gmail.com
+15:43:40.064 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Login tab clicked
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mclicks login&amp#27;[0m                                                        &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.clicks_login()&amp#27;[0m
+15:43:40.218 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Email entered:priyankauser@gmail.com
+15:43:40.468 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Email entered:priyankauser@gmail.com
+15:43:40.584 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - passeord entered:Priyanka@1
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+15:43:40.720 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - passeord entered:Priyanka@1
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+15:43:41.090 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Email entered:priyankauser@gmail.com
+15:43:41.170 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - passeord entered:Priyanka@1
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+15:43:41.353 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - passeord entered:Priyanka@1
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser enters email &amp#27;[0m&amp#27;[32m&amp#27;[1m"priyankauser@gmail.com"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"Priyanka@1"&amp#27;[0m &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_enters_email_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+15:43:42.901 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Submit button got clicked
+15:43:43.807 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Submit button got clicked
+15:43:44.102 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Submit button got clicked
+15:43:44.713 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Submit button got clicked
+15:43:45.058 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - Submit button got clicked
+15:43:46.025 [TestNG-PoolService-2] DEBUG stepDefinations.A_validateLoginFunctionalityStep - User is logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is sucessfully logged in&amp#27;[0m                                       &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_sucessfully_logged_in()&amp#27;[0m
+15:43:46.896 [TestNG-PoolService-1] DEBUG stepDefinations.A_validateLoginFunctionalityStep - User is logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is sucessfully logged in&amp#27;[0m                                       &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_sucessfully_logged_in()&amp#27;[0m
+15:43:46.974 [TestNG-PoolService-2] DEBUG stepDefinations.B_validateFilterByPriceStep - CheckBox checked
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                   &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+15:43:47.226 [TestNG-PoolService-4] DEBUG stepDefinations.A_validateLoginFunctionalityStep - User is logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is sucessfully logged in&amp#27;[0m                                       &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_sucessfully_logged_in()&amp#27;[0m
+15:43:47.812 [TestNG-PoolService-5] DEBUG stepDefinations.A_validateLoginFunctionalityStep - User is logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is sucessfully logged in&amp#27;[0m                                       &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_sucessfully_logged_in()&amp#27;[0m
+15:43:48.166 [TestNG-PoolService-3] DEBUG stepDefinations.A_validateLoginFunctionalityStep - User is logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is sucessfully logged in&amp#27;[0m                                       &amp#27;[90m# stepDefinations.A_validateLoginFunctionalityStep.user_is_sucessfully_logged_in()&amp#27;[0m
+15:43:48.449 [TestNG-PoolService-4] DEBUG stepDefinations.B_validateFilterByPriceStep - CheckBox checked
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                   &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Oct 29, 2026 3:43:25 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating price by filter&quot;, &quot;Validating price by filter functionality&quot;](2)" classname="cucumberOptions.TestRunner" time="25.552">
+    <system-out><![CDATA[15:43:49.149 [TestNG-PoolService-5] DEBUG stepDefinations.B_validateFilterByPriceStep - CheckBox checked
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                     &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+15:43:49.516 [TestNG-PoolService-3] DEBUG stepDefinations.B_validateFilterByPriceStep - CheckBox checked
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on search screen and in stock is checked&amp#27;[0m                   &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.user_is_on_search_screen_and_in_stock_is_checked()&amp#27;[0m
+size:4
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRange &amp#27;[0m&amp#27;[32m&amp#27;[1m"Below ₹60"&amp#27;[0m&amp#27;[32m is selected&amp#27;[0m                                       &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.range_is_selected(java.lang.String)&amp#27;[0m
+4*****SIZE
+59
+45
+35
+
+PRICE FILTER FOR Below ₹60 is working
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice is validated&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.price_is_validated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating price by filter&quot;, &quot;Validating price by filter functionality&quot;](3)" classname="cucumberOptions.TestRunner" time="27.426">
+    <system-out><![CDATA[size:1
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRange &amp#27;[0m&amp#27;[32m&amp#27;[1m"Above ₹70"&amp#27;[0m&amp#27;[32m is selected&amp#27;[0m                                       &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.range_is_selected(java.lang.String)&amp#27;[0m
+1*****SIZE
+79
+PRICE FILTER FOR Above ₹70 is working
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice is validated&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.price_is_validated()&amp#27;[0m
+REACHED CART
+15:43:52.741 [TestNG-PoolService-5] DEBUG stepDefinations.C_validateAddToCartStep - Filter is cleared
+CLEAR FILTER is clicked
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mclear filter is applied&amp#27;[0m                                            &amp#27;[90m# stepDefinations.C_validateAddToCartStep.user_is_on_the_search_page_and_clear_filter_is_applied()&amp#27;[0m
+size:1
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRange &amp#27;[0m&amp#27;[32m&amp#27;[1m"₹60 - ₹70"&amp#27;[0m&amp#27;[32m is selected&amp#27;[0m                                       &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.range_is_selected(java.lang.String)&amp#27;[0m
+1*****SIZE
+15:43:52.958 [TestNG-PoolService-5] DEBUG stepDefinations.C_validateAddToCartStep - Add to Cart is clicked
+69
+PRICE FILTER FOR ₹60 - ₹70 is working
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mprice is validated&amp#27;[0m                                                  &amp#27;[90m# stepDefinations.B_validateFilterByPriceStep.price_is_validated()&amp#27;[0m
+15:43:53.078 [TestNG-PoolService-5] DEBUG stepDefinations.C_validateAddToCartStep - Add to Cart is clicked
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating price by filter&quot;, &quot;Validating price by filter functionality&quot;](4)" classname="cucumberOptions.TestRunner" time="28.054">
+    <system-out><![CDATA[15:43:53.177 [TestNG-PoolService-5] DEBUG stepDefinations.C_validateAddToCartStep - Add to Cart is clicked
+15:43:53.230 [TestNG-PoolService-5] ERROR stepDefinations.C_validateAddToCartStep - Exception occurred:javascript error: o is not defined
+  (Session info: MicrosoftEdge=156.0.4314.50)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [cf792c906d5e1167c894220113504998, executeScript {script=window.scrollBy(o,-900);, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 23716, ms:edgeOptions: {debuggerAddress: localhost:57337}, msedge: {msedgedriverVersion: 156.0.4314.50 (af2ba23ae0ec..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.29.154:4444/se..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf792c906d5e1167c894220113504998
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser search flower &amp#27;[0m&amp#27;[32m&amp#27;[1m"Rose"&amp#27;[0m&amp#27;[32m and quantity &amp#27;[0m&amp#27;[32m&amp#27;[1m"3"&amp#27;[0m                          &amp#27;[90m# stepDefinations.C_validateAddToCartStep.user_search_flower_and_quantity(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate add to cart&quot;, &quot;Validate add to cart functionality&quot;](5)" classname="cucumberOptions.TestRunner" time="43.191">
+    <system-out><![CDATA[15:44:08.307 [TestNG-PoolService-5] ERROR stepDefinations.C_validateAddToCartStep - Exception occurred:no such element: Unable to locate element: {"method":"xpath","selector":"//p[@class='font-semibold']"}
+  (Session info: MicrosoftEdge=156.0.4314.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [cf792c906d5e1167c894220113504998, findElement {using=xpath, value=//p[@class='font-semibold']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 156.0.4314.50, fedcm:accounts: true, goog:processID: 23716, ms:edgeOptions: {debuggerAddress: localhost:57337}, msedge: {msedgedriverVersion: 156.0.4314.50 (af2ba23ae0ec..., userDataDir: C:\Users\user\AppData\Local...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://192.168.29.154:4444/se..., se:cdpVersion: 156.0.4314.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cf792c906d5e1167c894220113504998
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mvalidate correct item is added&amp#27;[0m                                      &amp#27;[90m# stepDefinations.C_validateAddToCartStep.validate_correct_item_is_added()&amp#27;[0m
+Actual Quantity : 3
+Expected Quantity : 3
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mvalidate correct item quantity&amp#27;[0m                                       &amp#27;[90m# stepDefinations.C_validateAddToCartStep.validate_correct_item_quantity()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

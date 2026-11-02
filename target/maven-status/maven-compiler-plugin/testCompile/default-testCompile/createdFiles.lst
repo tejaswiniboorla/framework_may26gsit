@@ -1,0 +1,5 @@
+stepDefinations\A_validateLoginFunctionalityStep.class
+hooks\ScenarioHook.class
+cucumberOptions\TestRunner.class
+stepDefinations\C_validateAddToCartStep.class
+stepDefinations\B_validateFilterByPriceStep.class
